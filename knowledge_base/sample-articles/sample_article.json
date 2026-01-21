@@ -1,0 +1,11 @@
+{
+  "article_id": "kb-001",
+  "title": "VPN disconnects after Windows update",
+  "category": "network",
+  "symptoms": ["VPN drops after 2-3 minutes", "Error code 720"],
+  "resolution": "Reinstall the VPN client and reset the network stack with 'netsh winsock reset'. Reboot and re-authenticate.",
+  "related_tickets": ["INC-1001", "INC-1012"],
+  "confidence_score": 0.82,
+  "last_updated": "2024-01-15T12:00:00Z",
+  "keywords": ["vpn", "windows", "disconnect", "winsock"]
+}

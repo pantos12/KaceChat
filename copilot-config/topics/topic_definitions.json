@@ -1,0 +1,31 @@
+{
+  "topics": [
+    {
+      "name": "Issue Resolution",
+      "trigger_phrases": [
+        "I'm having an issue with",
+        "How do I fix",
+        "My device isn't working"
+      ],
+      "flow": [
+        "Ask clarifying questions",
+        "Search KB",
+        "Provide solution",
+        "Collect feedback"
+      ]
+    },
+    {
+      "name": "Create Support Ticket",
+      "trigger_phrases": [
+        "Create a ticket",
+        "I need help",
+        "Escalate this"
+      ],
+      "flow": [
+        "Gather details",
+        "Call create-ticket flow",
+        "Return ticket number"
+      ]
+    }
+  ]
+}
