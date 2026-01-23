@@ -1,0 +1,8 @@
+{
+  "name": "create-ticket-flow",
+  "steps": [
+    "Collect issue details",
+    "Create KACE ticket",
+    "Return ticket number"
+  ]
+}

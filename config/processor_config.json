@@ -1,0 +1,5 @@
+{
+  "min_resolution_length": 40,
+  "max_title_length": 140,
+  "categories_path": "config/categories.json"
+}
