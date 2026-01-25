@@ -1,0 +1,25 @@
+{
+  "source": "csv",
+  "api": {
+    "base_url": "https://your-kace-instance.example.com/api",
+    "token_env": "KACE_API_TOKEN",
+    "timeout_seconds": 30
+  },
+  "file_export": {
+    "path": "/path/to/kace_export.csv",
+    "delimiter": ",",
+    "encoding": "utf-8"
+  },
+  "fields": {
+    "ticket_id": "ticket_id",
+    "title": "title",
+    "description": "description",
+    "resolution": "resolution",
+    "status": "status",
+    "created_date": "created_date",
+    "resolved_date": "resolved_date",
+    "category": "category"
+  },
+  "resolved_status_values": ["Resolved", "Closed"],
+  "min_resolution_length": 40
+}

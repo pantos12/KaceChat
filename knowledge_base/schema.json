@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KACE Knowledge Base Article",
+  "type": "object",
+  "required": [
+    "article_id",
+    "title",
+    "category",
+    "symptoms",
+    "resolution",
+    "related_tickets",
+    "confidence_score",
+    "last_updated",
+    "keywords"
+  ],
+  "properties": {
+    "article_id": {"type": "string"},
+    "title": {"type": "string"},
+    "category": {"type": "string"},
+    "symptoms": {"type": "array", "items": {"type": "string"}},
+    "resolution": {"type": "string"},
+    "related_tickets": {"type": "array", "items": {"type": "string"}},
+    "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "last_updated": {"type": "string", "format": "date-time"},
+    "keywords": {"type": "array", "items": {"type": "string"}}
+  }
+}

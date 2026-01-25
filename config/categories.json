@@ -1,0 +1,6 @@
+{
+  "hardware": ["laptop", "desktop", "printer", "monitor"],
+  "software": ["application", "install", "update", "license"],
+  "network": ["vpn", "wifi", "internet", "latency"],
+  "access": ["password", "account", "login", "permissions"]
+}

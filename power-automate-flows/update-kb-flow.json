@@ -1,0 +1,8 @@
+{
+  "name": "update-kb-flow",
+  "steps": [
+    "Detect new KB export",
+    "Upsert into SharePoint",
+    "Notify owners"
+  ]
+}
