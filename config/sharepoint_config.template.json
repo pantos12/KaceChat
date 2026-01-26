@@ -1,0 +1,19 @@
+{
+  "site_url": "https://your-tenant.sharepoint.com/sites/YourSite",
+  "list_name": "KACE Knowledge Base",
+  "auth": {
+    "tenant_id_env": "AZURE_TENANT_ID",
+    "client_id_env": "AZURE_CLIENT_ID",
+    "client_secret_env": "AZURE_CLIENT_SECRET"
+  },
+  "fields": {
+    "title": "Title",
+    "category": "Category",
+    "symptoms": "Symptoms",
+    "resolution": "Resolution",
+    "keywords": "Keywords",
+    "confidence_score": "ConfidenceScore",
+    "last_updated": "LastUpdated",
+    "related_tickets": "RelatedTickets"
+  }
+}

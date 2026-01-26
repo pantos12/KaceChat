@@ -1,0 +1,5 @@
+{
+  "knowledge_source": "sharepoint",
+  "search_fields": ["title", "category", "symptoms", "keywords"],
+  "min_confidence": 0.7
+}
