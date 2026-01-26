@@ -1,0 +1,9 @@
+{
+  "name": "search-kb-flow",
+  "steps": [
+    "Parse user intent",
+    "Search SharePoint list",
+    "Rank by confidence_score",
+    "Return top result"
+  ]
+}

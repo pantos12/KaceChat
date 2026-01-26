@@ -1,0 +1,9 @@
+{
+  "environment_url": "https://your-org.crm.dynamics.com",
+  "table_name": "KB Articles",
+  "auth": {
+    "tenant_id_env": "AZURE_TENANT_ID",
+    "client_id_env": "AZURE_CLIENT_ID",
+    "client_secret_env": "AZURE_CLIENT_SECRET"
+  }
+}
